@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="styl.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  	<div class="content">
+		<h1>Registration</h1>
+		<p style="color: rgb(112, 172, 172); font-size: 25px;">Please fill in this form to register with us <span>its free!</span></p>
+
+		<form action="success.html">
+			<label for="fName">First Name :</label>
+			<input type="text" placeholder="First Name:" id="fName" required>
+			
+			<label for="lName">Last Name :</label>
+			<input type="text" placeholder="Last Name:" id="lName" required>
+			
+			<label for="pNumber"> phone Number :</label>
+			<input type="number" placeholder="phone number:" id="pNumber" required>
+			
+			<label for="email">Email :</label>
+			<input type="email" name="" placeholder="Email address:" id="email" required>
+			
+			<label for="uName">Username</label>
+			<input type="text" placeholder="Enter username" required>
+			
+			<label for="gender">Gender :</label>
+		
+			<select name="" id="" required>
+				<option value="" >~Select Gender~</option>
+				<option value="male">Male</option>
+				<option value="female">Female</option>
+			</select>
+			
+			<label for="dob">Date of Birth :</label>
+			<input type="date" id="dob" required>
+			
+			<label for="color">Favorite Color :</label>
+			<select name="" id="" required>
+				<option value="" >~Select Color~</option>
+				<option value="red">Red</option>
+				<option value="orange">Orange</option>
+				<option value="yellow">Yellow</option>
+				<option value="green">Green</option>
+				<option value="brown">Brown</option>
+				<option value="indigo">Indigo</option>
+				<option value="violet">Violet</option>
+				<option value="others">Others...</option>
+			</select>
+			
+			
+			<label for="pswd">Password</label>
+			<input type="password" placeholder="Enter Password" pattern="(?=.*d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must constain at least one number and one uppercase and loercase letter and at least 8 or more characters"/ >
+			
+			<label for="cPswd">Confirm Password</label>
+			<input type="password" name="" id="" placeholder="Confirm password"  pattern="(?=.*d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="Must constain at least one number and one uppercase and loercase letter and at least 8 or more characters"/>
+			<button type="submit">submit</button>
+
+		</form>
+		<p style="font-size: 15px;">
+			By clicking the Sign Up button, you agree to our <a href="#">Terms and Conditions</a> and <a href="#">Policy and privacy</a>
+		</p>
+
+	</div>
+
+	<div>
+		<p id="para">Already have an aaccount? <a href="indexe.html">Log in</a></p>  
+	</div>
+
+
+
+
+  
+  <script src="script.js"></script>
+
+ <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script> 
+</body>
+
+</html>

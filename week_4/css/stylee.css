@@ -1,0 +1,57 @@
+.grid-container{
+    display: grid;
+    grid-template-areas: 
+    "p p p p q q"
+    "p p p p q q"
+    "r r r s s s"
+    "r r r t t t";
+    background-color: rgb(18,18,30);
+    padding: 50px;
+    width: 50%;
+    height: 300px;
+    margin: auto;
+    gap: 9px;
+    
+
+}
+
+  
+.grid-item-1{
+    background-color: rgb(255, 106, 0);
+    grid-area: p;
+
+}
+
+.grid-item-2{
+    background-color: rgb(231, 172, 25);
+    grid-area: q;
+}
+
+.grid-item-3{
+    background-color: rgb(9, 164, 9);
+    grid-area: r;
+}
+
+.grid-item-4{
+    background-color: rgb(7, 183, 247);
+    grid-area: s;
+}
+
+.grid-item-5{
+    background-color: rgb(7, 183, 247);
+    grid-area: t;
+}
+
+.link{
+	text-align: center;
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+.link a {
+	text-decoration: none;
+	border: 1px solid yellow;
+	padding: 5px 8px;
+	font-size: 20px;
+	background-color: aquamarine;
+	
+  }

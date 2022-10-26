@@ -1,0 +1,84 @@
+* {
+	padding: 0px;
+	margin: 0;
+	font-family: sans-serif;
+	}
+body {
+	background: url(../img/img_3.jfif);
+	background-size: cover;
+	
+}
+.content {
+	width: 360px;
+	height: 1000px;
+	margin: auto;
+	/* margin-top: 20px; */
+	border-radius: 4px;
+}
+
+.content h1 {
+	text-align: center;
+	padding-top: 15px;
+	color: aquamarine;
+}
+
+.content h4 {
+	text-align: center;
+}
+.content form {
+	width: 100%;
+	margin: auto;
+}
+
+.content label {
+	display: flex;
+	margin-top: 20px;
+	font-size: 18px;
+	color: rgb(112, 172, 172);
+}
+
+.content form input {
+	width: 100%;
+	padding: 7px;
+	border: 1px solid blue; 
+	border-radius: 6px;
+	outline: none;
+}
+
+.content form input:hover {
+	border: 2px solid aquamarine;
+	box-shadow: 3px 6px 2px rgb(6, 67, 47);
+
+}
+
+.content button {
+	width: 320px;
+	height: 35px;
+	margin-top: 20px;
+	border: none;
+	background-color: rgb(65, 253, 191);
+	color: white;
+	font-size: 18px;
+	margin-left: 8%;
+}
+
+.content button:hover {
+	background-color: rgb(8, 48, 35)
+}
+
+.content p {
+	text-align: center;
+	padding-top: 20px;
+	font-size: 15px;
+}
+
+#para {
+	text-align: center;
+	color: white;
+	font-size: 15px;
+	margin-top: -10px;
+
+}
+#para a {
+	color: aquamarine;
+}

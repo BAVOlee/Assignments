@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.main {
+	width: 100%;
+	min-height: 100vh;
+	display: flex;
+}
+
+.heading {
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+h1 {
+	border: 1px solid goldenrod;
+	background: rgb(249, 158, 173);
+	color: white;
+	width: 10em;
+	margin: 20px;
+}
+
+
+.row {
+	width: 100%;
+	max-width: 1400px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: wrap;
+}
+
+.card {
+	width: 269px;
+	padding: 15px;
+	min-height: 430px;
+}
+
+.card-1 {
+	background:hsl(31, 77%, 52%);
+	padding: 32px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+
+.card-2 {
+	background: hsl(184, 100%, 22%);
+	padding: 32px;
+}
+
+.card-3 {
+	background: hsl(179, 100%, 13%);
+	padding: 32px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.content {
+	padding: 11px;
+}
+.content h2 {
+	text-transform: uppercase;
+	color: hsl(0,0%,95%);
+	font-family: "Big Shoulders Display" , cursive;
+	letter-spacing: none;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.content p {
+	color: hsla(0,0%,100%,0.75);
+	font-family: "sans-serif;
+}
+
+.btn {
+	 margin: 60px 0;
+	border: 1px solid white;
+	color: white;
+	padding: 10px 20px;
+	border-radius: 25px;
+	font-size: 15px;
+	cursor: pointer;
+	font-family: "Lexend Deca", sans-serif;
+	 
+	
+}
+
+.btn:hover{
+    background-color: transparent;
+	text-transform: uppercase;
+    color: hsl(0, 0%, 95%);
+    border: 2px solid white;
+    border-radius: 50px;
+}
+
+.btn-1{
+    background-color: hsl(31, 77%, 52%);
+}
+
+.btn-2{
+    background-color: hsl(184, 100%, 22%); 
+}
+
+.btn-3{
+    background-color:  hsl(179, 100%, 13%);
+}
+
+.link{
+	text-align: center;
+	font-size: 20px;
+	margin-bottom: 20px;
+}
+.link a {
+	text-decoration: none;
+	border: 1px solid yellow;
+	padding: 5px 8px;
+	font-size: 20px;
+	background-color: aquamarine;
+	
+  }
