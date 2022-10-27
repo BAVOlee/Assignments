@@ -8,4 +8,4 @@ I created :
 all pages were created using html and css
 
 ### check design
-`https://zuri-week-3.bavolee.repl.co`
+[Click here](https://zuri-week-3.bavolee.repl.co) to check the design
