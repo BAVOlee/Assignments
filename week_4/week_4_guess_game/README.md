@@ -5,3 +5,5 @@
 * The user must get the first question correctly to proceed to the next game.
 * There are only two stages
 
+[click here](https://week-4-nodejs-task.bavolee.repl.co/) to play game
+
