@@ -4,4 +4,4 @@ This task contains :
 * the recreation of a css grid layout
 
 ### check design
-`https://CSS-GRID-flexbox-task.bavolee.repl.co`
+[Click here](https://CSS-GRID-flexbox-task.bavolee.repl.co) to check the design.
